@@ -1,0 +1,11 @@
+<!-- <button>21321</button> -->
+<view class='getUser-bg'>
+  <view class='getUser-content'>
+    <view class='image'>
+      <image src='/images/logo.png'></image>
+    </view>
+    <view>小丁鲜果</view>
+    <text>此小程序由小丁鲜果定制将会使用您的公开信息如（微信名，头像等）进入小程序请您确认</text>
+    <button bindgetuserinfo='onGotUserInfo' open-type="getUserInfo">进入小丁鲜果</button>
+  </view>
+</view>
