@@ -1,0 +1,34 @@
+/* 用户的头像和用户名样式 */
+
+.cart-user {
+  background: #e54847;
+  height: 400rpx;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.user-img {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 60rpx);
+}
+
+.user-img image {
+  width: 100%;
+  height: 100%;
+}
+
+.user-name {
+  font-size: 36rpx;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 270rpx);
+  /* text-decoration: line-through; //删除线*/
+}

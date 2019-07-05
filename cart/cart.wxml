@@ -1,0 +1,16 @@
+<!--pages/cart/cart.wxml-->
+<!-- <text>pages/cart/cart.wxml</text> -->
+<!-- <button bindtap='skipManage'>进入管理层</button> -->
+<view class="cart-user">
+  <view class='user-img'>
+    <image src="{{uImg}}"></image>
+  </view>
+  <view class='user-name'>
+    <text>{{uname}}</text>
+  </view>
+</view>
+<view class='cart-choose'></view>
+<view class='cart-annals'></view>
+<form bind:submit="testSubmit" report-submit="true">
+  <button formType="submit">发送模板消息</button>
+</form>
