@@ -1,0 +1,15 @@
+<view class='groom-content'>
+  <view class='groom-list' bindtap='groomNumChange'>
+    <view class='groom-item' wx:for="{{groomList}}" wx:key="index">
+      <image lazy-load='true' src='{{item.src[0]}}' data-className='img' data-id='{{item.id}}'></image>
+      <view class='groom-title'>
+        <view class='groom-name'>{{item.name}}</view>
+        <view class='groom-price'>{{item.price}}</view>
+      </view>
+      <view class='groom-num'>
+        <van-stepper value="{{ value }}" min="0" data-id="{{item}}" bind:change="onStepperChange" />
+        <van-tag type="danger" data-id="{{item}}" data-className="tag">加入购物车</van-tag>
+      </view>
+    </view>
+  </view>
+</view>

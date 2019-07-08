@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-stepper": "vant-weapp/stepper/index",
+    "van-tag": "vant-weapp/tag/index"
+  }
+}

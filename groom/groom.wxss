@@ -1,0 +1,33 @@
+.groom-content{
+  width: 96%;
+  margin: 10rpx auto;
+}
+.groom-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.groom-item{
+  width: 47%;
+  height: 40vh;
+  padding: 1%;
+  margin-top: 2%;
+}
+.groom-item image{
+  width: 98%;
+  height: 70%;
+}
+.groom-title,.groom-num{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 4%;
+}
+.groom-num .van-tag{
+  height: 70%;
+  padding-top: 12%;
+}
+.groom-price{
+  font-size: 32rpx;
+  color: #4f0;
+}
